@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none !important;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+}
+
+header .logo {
+  padding: 19px 0;
+}
+
+header nav .main-ul li a {
+  padding: 0 18px;
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+header nav .btn-1 {
+  background-color: #61ce70;
+  color: #fff !important;
+  padding: 13px 30px;
+  border-radius: 4px;
+  font-weight: 600;
+  display: inline-block !important;
+  margin-left: 0px;
+}
+
+.btn-1-x {
+  background-color: #61ce70;
+  color: #fff !important;
+  padding: 13px 30px;
+  border-radius: 4px;
+  font-weight: 600;
+  display: inline-block !important;
+}
+
+header nav .main-ul li a:hover {
+  color: #2bace2 !important;
+}
+
+header .main-ul .special-li {
+  position: relative;
+}
+
+header nav .main-ul .special-li .span-1 {
+  color: #fff;
+  background-color: #61ce70;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 2px 4px 3px !important;
+  font-weight: 500;
+  position: absolute;
+  line-height: 12px;
+  bottom: 23px !important;
+  right: 5px !important;
+}
+
+header nav .main-ul .special-li .span-1-2 {
+  right: -19px !important;
+}
+
+.section-1 {
+  padding: 150px 0 30px;
+  /* background:linear-gradient(rgb(255, 255, 255) ,rgb(178, 230, 253) ) !important; */
+  background-image: linear-gradient(70deg, #ffffff 30%, #cce9f5 100%);
+}
+
+.section-1 .section-1-content .span-2 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #00aeef;
+}
+
+.section-1 h1 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.section-1 .section-1-content {
+  padding: 0 0 0 85px;
+}
+
+.section-1 .section-1-content .tex-1 {
+  color: #545960;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn-2 {
+  color: #61ce70 !important;
+  border: 1px solid #61ce70 !important;
+  background: transparent;
+  transition: 0.2s all ease-in-out;
+}
+
+.btn-2:hover {
+  background-color: #61ce70;
+  color: #fff !important;
+}
+
+.btn-grp {
+  margin-top: 30px;
+}
+
+.section-2 {
+  padding: 25px 0;
+}
+
+.section-3 {
+  padding: 130px 0 40px;
+}
+
+.section-3-content .span-3 {
+  color: #000;
+  font-size: 19px;
+}
+
+.section-3-content .tex-2 {
+  margin: 20px 0 20px;
+  color: #7a7a7a;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.section-3-content .place {
+  width: 55px !important;
+  height: 50px !important;
+}
+
+.section-3-content h6 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.section-3-content .span-4 {
+  color: #00aeef;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.section-3-content h2 {
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.section-3-content .span-5 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.section-3-content .tex-3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 8px;
+  line-height: 28px;
+}
+
+.section-4 {
+  padding: 85px 0;
+}
+
+.section-4 h2 {
+  color: #000;
+  font-size: 29px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.section-4 ul li i {
+  font-size: 20px;
+  color: #61ce70;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.section-4 ul li {
+  font-size: 17px;
+}
+
+.span-6 {
+  color: #00aeef;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  vertical-align: middle;
+}
+.span-7 {
+  display: inline-block;
+  color: #fff;
+  font-size: 10px;
+  background-color: #61ce70;
+  border-radius: 4px;
+  line-height: 13px;
+  padding: 2px 4px 0;
+  text-transform: uppercase;
+  margin: 0 0 0 3px;
+  letter-spacing: 0;
+}
+
+.section-4-content h3 {
+  font-weight: 700;
+  line-height: 37px;
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+.section-4-content .tex-4 {
+  color: #7a7a7a;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.section-4-content .span-8 {
+  font-size: 17px;
+  color: #2bace2;
+  font-weight: 600;
+}
+
+.section-6-content h2 {
+  width: auto;
+  font-size: 25px;
+}
+
+/* .section-5-content .w-y{
+                width: 477px;
+            } */
+
+.section-5 {
+  background-image: linear-gradient(182deg, #ffffff 0%, #dbf0f9 100%);
+  padding: 100px 0;
+}
+
+.section-5-content h2 {
+  font-size: 37px;
+  color: #000;
+  font-weight: 600;
+  line-height: 47px;
+}
+
+.tex-5 {
+  font-size: 17px;
+  color: #7a7a7a;
+  margin-top: 16px;
+}
+
+.btn-h:hover {
+  background-color: rgba(97, 206, 112, 0.75) !important;
+}
+
+.btn-h {
+  transition: 0.1s all ease-in-out;
+}
+
+.section-6 {
+  padding: 100px 0 0;
+}
+
+.section-7 {
+  background-color: #e8f8fe;
+  padding: 70px 0;
+}
+
+.super-title {
+  font-size: 32px;
+  color: #000;
+  font-weight: 600;
+  margin: 11px 0;
+}
+
+.section-8 {
+  padding: 100px 0;
+}
+
+.section-9 {
+  padding: 70px 0;
+}
+.section-10 {
+  padding: 85px 0;
+}
+
+.section-11 {
+  padding: 75px 0;
+}
+
+.section-12 {
+  padding: 40px 0 100px;
+}
+
+.section-13 {
+  padding: 40px 0 0 0;
+}
+
+footer {
+  background-image: linear-gradient(0deg, #00335a 50%, #ffffff 0%);
+  padding: 100px 0 0;
+}
+
+footer .top-footer {
+  background-color: #ffffff;
+  padding: 120px;
+  border-radius: 12px;
+  box-shadow: 0 0 50px 0 rgb(0 0 0 / 10%);
+}
+.top-footer .top-footer-content .tex-6 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.top-footer-content-x {
+  margin: 0 0 5px;
+  padding: 25px 0 0;
+  background-color: transparent;
+  border: #61ce70 3px solid;
+  border-radius: 10px;
+}
+
+.top-footer-content-x h2 {
+  font-size: 77px;
+  font-weight: 700;
+  color: #000;
+  letter-spacing: -3px;
+}
+.top-footer-content-x .span-9 {
+  color: #000;
+  font-size: 35px;
+  font-weight: 600;
+  vertical-align: top;
+}
+
+.top-footer-content-x .span-10 {
+  font-size: 28px;
+  font-weight: 600;
+  vertical-align: top;
+  color: #000;
+}
+
+.span-11 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #61ce70;
+  margin-top: -13px;
+  display: block;
+}
+
+.center-footer {
+  padding: 90px 0;
+}
+
+.center-footer .center-foooter-content h4 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.center-foooter-content ul li a {
+  color: #fff;
+  font-size: 16px;
+}
+
+.center-footer-content ul li .s-m {
+  color: #fff !important;
+  background-color: #ffffff29 !important;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 1px;
+}
+
+.center-footer-content ul li .s-m:hover {
+  opacity: 0.9;
+}
+.bottom-footer {
+  background-color: #012b4b;
+  padding: 16px 0;
+}
+
+.bottom-footer .bottom-footer-content .span-last {
+  color: #ffffff73;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.super-title-x {
+  font-size: 34px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  header nav .main-ul li a {
+    padding: 0 10px;
+  }
+
+  .section-6-content h2 {
+    font-size: 29px;
+  }
+  .top-footer .top-footer-content .tex-6 {
+    font-size: 19px;
+  }
+  .super-title {
+    font-size: 34px;
+  }
+  .section-4 h2 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  header nav .btn-1 {
+    margin-left: 25px;
+  }
+  .section-1 .section-1-content {
+    padding: 0 0 0 63px;
+  }
+  .section-1 h1 {
+    font-size: 37px;
+  }
+
+  .section-4-content h3 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  header nav .btn-1 {
+    padding: 10px 25px;
+  }
+  .super-title-x {
+    font-size: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+  header nav .main-ul li a {
+    padding: 0 18px;
+  }
+
+  .section-1 .section-1-content {
+    padding: 0 0 0 220px;
+  }
+  header nav .btn-1 {
+    margin-left: 130px;
+  }
+
+  .section-1 .section-1-content {
+    padding: 0 0 0 104px;
+  }
+  .section-6-content h2 {
+    width: 66%;
+  }
+  header nav .btn-1 {
+    padding: 13px 30px;
+  }
+  header nav .btn-1 {
+    margin-left: 143px;
+  }
+  .super-title-x {
+    font-size: 41px;
+  }
+}
